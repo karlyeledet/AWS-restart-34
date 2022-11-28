@@ -1,0 +1,64 @@
+┌──(karlyeledet㉿Karlye)-[~]
+└─$ touch FilesGalore.txt
+
+┌──(karlyeledet㉿Karlye)-[~]
+└─$ vim FilesGalore.txt
+
+┌──(karlyeledet㉿Karlye)-[~]
+└─$ chmod 700 FilesGalore.txt
+
+┌──(karlyeledet㉿Karlye)-[~]
+└─$ ./FilesGalore.txt
+./FilesGalore.txt: line 12: syntax error near unexpected token `fi'
+./FilesGalore.txt: line 12: `fi'
+
+┌──(karlyeledet㉿Karlye)-[~]
+└─$ vim FilesGalore.txt
+
+┌──(karlyeledet㉿Karlye)-[~]
+└─$ ./FilesGalore.txt
+
+┌──(karlyeledet㉿Karlye)-[~]
+└─$ ls
+ 10                                   File23.txt   File45.txt   File68.txt   File90.txt
+ 20                                   File24.txt   File46.txt   File69.txt   File91.txt
+'2022-11-17 14:06:01 AWS project 1'   File25.txt   File47.txt   File6.txt    File92.txt
+ 5                                    File26.txt   File48.txt   File70.txt   File93.txt
+ CreatingFiles.txt                    File27.txt   File49.txt   File71.txt   File94.txt
+ Desktop                              File28.txt   File4.txt    File72.txt   File95.txt
+ Documents                            File29.txt   File50.txt   File73.txt   File96.txt
+ Downloads                            File2.txt    File51.txt   File74.txt   File97.txt
+ File0.txt                            file3        File52.txt   File75.txt   File98.txt
+ file1                                File30.txt   File53.txt   File76.txt   File99.txt        
+ File100.txt                          File31.txt   File54.txt   File77.txt   File9.txt         
+ File10.txt                           File32.txt   File55.txt   File78.txt   FilesGalore.txt   
+ File11.txt                           File33.txt   File56.txt   File79.txt   FunctionFile      
+ File12.txt                           File34.txt   File57.txt   File7.txt    hello_world.sh    
+ File13.txt                           File35.txt   File58.txt   File80.txt   himom.sh          
+ File14.txt                           File36.txt   File59.txt   File81.txt   Music             
+ File15.txt                           File37.txt   File5.txt    File82.txt   Pictures          
+ File16.txt                           File38.txt   File60.txt   File83.txt   Proj              
+ File17.txt                           File39.txt   File61.txt   File84.txt   ProjectZenity2    
+ File18.txt                           File3.txt    File62.txt   File85.txt   ProjectZenity.sh  
+ File19.txt                           File40.txt   File63.txt   File86.txt   Public            
+ File1.txt                            File41.txt   File64.txt   File87.txt   README.md         
+ File20.txt                           File42.txt   File65.txt   File88.txt   Templates         
+ File21.txt                           File43.txt   File66.txt   File89.txt   Videos            
+ File22.txt                           File44.txt   File67.txt   File8.txt                      
+                                                                                               
+┌──(karlyeledet㉿Karlye)-[~]                                                                   
+└─$                                                                                            
+            
+            
+            
+            
+            vim file
+            
+            #!/bin/bash
+            
+            for i in {0..146}
+            do
+            
+            echo hello > "File${i}.txt
+            
+            done
